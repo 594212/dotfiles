@@ -1,0 +1,46 @@
+[alias]
+edlast = "zk edit --limit 1 --sort modified- $@"
+lucky = "zk list --quiet --format full --sort random --limit 1"
+recent = "zk edit --sort created- --created-after 'last two weeks' --interactive"
+
+[extra]
+author = "Suleiman"
+
+[filter]
+recents = "--sort created- --created-after 'last two weeks'"
+
+[format.markdown]
+colon-tags = true
+hashtags = true
+link-format = "wiki"
+multiword-tags = false
+
+[group.daily]
+paths = ["journal/daily"]
+[group.daily.note]
+extension = "md"
+filename = "{{format-date now '%Y-%m-%d'}}"
+template = "daily.md"
+
+[group.diagram.note]
+extension = "md"
+filename = "{{title}}"
+template = "diagram.md"
+
+[note]
+default-title = "Untitled"
+extension = "md"
+filename = "{{id}}-{{slug title}}"
+id-case = "lower"
+id-charset = "alphanum"
+id-length = 4
+language = "en"
+template = "default.md"
+
+[notebook]
+dir = "~/journal"
+
+[tool]
+fzf-preview = "bat -p --color always {-1}"
+pager = "less -FIRX"
+shell = "/nix/store/fnixl0hxrvm6b8ayp7pb71gk9p25qbsr-zsh-5.9/bin/zsh"

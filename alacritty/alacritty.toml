@@ -1,0 +1,31 @@
+[cursor.style]
+blinking = "On"
+shape = "Beam"
+
+[keyboard]
+bindings = [
+{ key="Backspace", mods = "Control", chars = "\b" },
+{ key = "N", mods = "Control|Shift", action = "CreateNewWindow" },
+	    ]
+	    
+[font]
+size = 12
+normal = { family = "Hack Nerd Font Mono", style = "Regular" }
+bold   = { family = "Hack Nerd Font Mono", style = "Bold" }
+italic = { family = "Hack Nerd Font Mono", style = "Italic" }
+
+[general]
+ import = [".\\themes\\gruvbox_material_hard_dark.toml"]
+
+[terminal.shell]
+args = ["-l"]
+program = "C:\\Users\\sul\\scoop\\shims\\elvish.exe"
+
+[window]
+decorations = "Full"
+dynamic_padding = true
+
+[window.padding]
+x = 5
+y = 2
+

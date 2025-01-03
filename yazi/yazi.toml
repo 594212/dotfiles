@@ -1,0 +1,9 @@
+[log]
+enabled = false
+
+[manager]
+ratio = [1, 1, 6]
+show_hidden = false
+sort_by = "modified"
+sort_dir_first = true
+sort_reverse = true

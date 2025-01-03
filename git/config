@@ -1,0 +1,12 @@
+[core]
+	editor = "nvim"
+
+[diff]
+	tool = "nvimdiff"
+
+[init]
+	defaultBranch = "main"
+
+[user]
+	email = "su1im69n@gmail.com"
+	name = "sul"

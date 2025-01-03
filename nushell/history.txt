@@ -1,0 +1,366 @@
+ls
+pwd
+ls
+pwd
+cd nushel
+cd containers\
+cd config
+ls
+cd config
+pwd
+cargo install-bin
+cargo install --list
+cargo install atuin
+rustup upgrade
+rm C:\Users\sul\scoop\persist\rustup\.cargo\bin\rust-analyzer.exe
+rustup upgrade
+rustup update
+clear
+cargo install atuin
+ls
+clear
+ls
+atuin init nu | save c:\Users\sul\AppData\Roaming\atuin
+atuin init nu | save c:\Users\sul\AppData\Roaming\atuin\
+atuin init nu | save c:\Users\sul\AppData\Roaming\atuin\init.nu
+ls
+clear
+go
+which go
+pwd
+ls
+cd .cache
+ls
+cd ..
+ls
+cd .cache\
+ls
+mkdir carapace
+ls
+carapace _carapace nushell | save --force ./carapace/init.nu
+cd carapace\
+ls
+pwd
+cd ..
+clear
+ls
+clcd ml_project\
+ls
+cd rust_projects\
+ls
+cd ..
+cd PhpstormProjects\
+ls
+cd ..
+ls
+rm -rf rust_projects\
+rm -rf PhpstormProjects\
+ks
+ls
+cd ml_project\
+rm -rf ml_project
+ls
+cd .
+cd ..
+ls
+clear
+ls
+rm -rf ml_project
+ls
+cd /
+;s
+ls
+clear
+cd home\
+ls
+cd sul\
+ls
+cd .cache\
+ls
+cd zoxide\
+ls
+cd
+ls
+cd /
+ls
+cd tools\
+ls
+cd ..
+ls
+cd home\
+ls
+cd sul\
+ls
+cd ..
+ls
+touch test.rs
+yy
+cdi
+ls
+pwd
+cd AppData\
+ls
+cd Roaming\
+cp atuin\init.nu nushell\
+cd nushell\
+ls
+pwd
+pwd
+pwd
+ls
+cp -r ~\.cache\carapace .\
+ls
+ls
+cp carapace\init.nu .\carapace.nu
+ls
+const file_path = './path/to/your/file.nu'
+echo file_path
+const nushell_path = 'c:\Users\sul\AppData\Roaming\nushell'
+echo $nushell_path
+ls $nushell_path\atuin.nu
+ls '$nushell_path'\atuin.nu
+ls $nushell_path + atuin.nu
+$nushell_path + atuin.nu | ls
+$nushell_path\atuin.nu
+ls
+ls vimfiles
+path
+path $file_path
+echo $nushell_path
+path $nushell_path
+path --help
+path join $nushell_path 'ds'
+'dsd' | path join 'ds'
+zoxide init nushell | save -f c:\Users\sul\AppData\Roaming\nushell\zoxide.nu
+ls
+cdi
+cd zoxide
+cd AppData\
+cd ..
+cd apdata
+zoxide init -- --cmd cd nushell | save -f c:\Users\sul\AppData\Roaming\nushell\zoxide.nu
+zoxide init --cmd cd nushell | save -f c:\Users\sul\AppData\Roaming\nushell\zoxide.nu
+cdi
+pwd
+ls
+clear
+starship init nu | save -f c:\Users\sul\AppData\Roaming\starship.nu
+fg
+pwd
+clear
+vi
+clear
+ls
+wsl
+clear
+exit
+pwd
+ls
+tmux
+clear
+pwd
+ls
+pwd
+clear
+pwd
+clear
+pwd
+lc
+clear
+pwd
+clear
+pwd
+clear
+pwd
+cd
+ls
+mangohud
+vi
+clear
+cd home
+vi
+pwd
+cd rust
+cd ..
+ls
+cd cache
+cd up
+cd he
+cdi
+ls
+clear
+pwd
+clear
+tmux
+scoop install alacritty
+ls
+clear
+pwd
+scoop bucket add extras
+scoop install komorebi whkd
+komorebic quickstart
+ls
+cat .config/
+cd .config\
+ls
+cd ..
+ls
+powershell
+clear
+komorebi-bar
+komorebic start --whkd --bar
+pwd
+ls
+vi komorebi.bar.json 
+pwd
+whoami
+pwd
+whereis vi
+where vi
+vi
+which vi
+alias vi
+vi
+vi komorebi.bar.json 
+komorebic start --whkd
+komorebic stop
+komorebic-bar
+komorebi-bar
+komorebi-bar --help
+ls
+vi komorebi.json 
+komorebic start --whkd --bar
+pwd
+vi komorebi.json 
+wsl
+vi
+komorebic stop
+komorebic-bar
+komorebic-bar stop
+scoop install main/elvish
+scoop uninstall elvish
+scoop install main/elvish
+elvish
+exit
+exut
+exit
+which exa
+which eza
+whereis eza
+cargo install eza
+ls
+cd roa
+ls
+vi nushell/config.nu 
+ls
+fg
+ls
+ls --hep
+ls --help
+cd nushell
+cdi ro
+vi nushell/config.nu 
+scoop uninstall exa
+scoop uninstall eza
+eza
+lzd
+wsl
+lzd
+podman
+podman machine start
+lzd
+whereis lzd
+podman machine init
+podman machine start
+lzd
+podman info
+cd 
+ls
+vi .wslconfig 
+wsl --shutdown
+podman machine restart
+podman machine 
+podman machine reset
+podman machine start
+lzd
+podman machine reset
+podman machine 
+podman machine list
+podman machine init
+podman machine start
+lzd
+whereis lz
+which lz
+which lzd
+ls
+vi .wslconfig 
+wsl --shutdown
+wsl
+lzd
+podman machine reset
+podman machine init
+atuin init elvish
+ls
+cd road
+cd roa
+ls
+cd
+ls
+cd .config\
+ls
+elvish
+rg ec.elv
+ls
+cd
+ls
+pwd
+rg ec.elv
+ls
+whoami
+ls
+ls -la
+echo $shell
+ls
+cd roa
+ls
+rg elv
+clear
+fd | rg elv
+cd
+fd | rg elv
+cd roa
+ls
+mkdir elvish
+cd roa
+cd elvish\
+ls
+cat rc.elv 
+cat ../nushell/config.nu 
+vim rc.elv
+vi
+exit
+where elvish
+whereis elvish
+powershell
+fd | rg elv
+exit
+fd | rg elv
+pwd
+rm .shinit
+rm .bashrc
+rm -rf .x-cmd.root
+where clear
+clear
+whereis clear
+whereis
+pwd
+choco list
+vo
+vi
+exit
+pwd
+clear
+exit
+hx
+ls
+exit
